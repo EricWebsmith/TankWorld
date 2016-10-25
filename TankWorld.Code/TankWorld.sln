@@ -1,0 +1,214 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24627.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankWorld.UI", "TankWorld.UI\TankWorld.UI.csproj", "{DF6555E1-BC76-4F84-8C23-194485227785}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5F5BB30A-0DEB-47DE-98B2-AE597C4CE221}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankWorld.Test", "TankWorld.Test\TankWorld.Test.csproj", "{0372302E-FFEE-47E0-91AE-1E4015AEF60B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{E501BD34-E7F8-4A7E-9756-C3ABF1B3E568}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\BSD_GameProcess.vsdx = Documents\BSD_GameProcess.vsdx
+		Documents\Package Dependencies.vsdx = Documents\Package Dependencies.vsdx
+		Documents\plan.vsdx = Documents\plan.vsdx
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankWorld.Core", "Core\TankWorld.Base\TankWorld.Core.csproj", "{47CE533E-0058-4FA4-B7B1-C7E018D343D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages", "Packages", "{3BCEDA92-5D41-41C8-9140-E9A729684ECA}"
+	ProjectSection(SolutionItems) = preProject
+		Packages\OpenTK.Compatibility.dll = Packages\OpenTK.Compatibility.dll
+		Packages\OpenTK.Compatibility.dll.config = Packages\OpenTK.Compatibility.dll.config
+		Packages\OpenTK.dll = Packages\OpenTK.dll
+		Packages\OpenTK.dll.config = Packages\OpenTK.dll.config
+		Packages\OpenTK.GLControl.dll = Packages\OpenTK.GLControl.dll
+		Packages\OpenTK.GLControl.pdb = Packages\OpenTK.GLControl.pdb
+		Packages\OpenTK.GLControl.xml = Packages\OpenTK.GLControl.xml
+		Packages\OpenTK.pdb = Packages\OpenTK.pdb
+		Packages\OpenTK.xml = Packages\OpenTK.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankWorld.ProgrammedPlayers", "ExternalPlayers\TankWorld.ProgrammedPlayers\TankWorld.ProgrammedPlayers.csproj", "{BE4E5293-5CFD-455B-8464-854732BAC5AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankWorld.MachineLearning", "Common\TankWorld.MachineLearning\TankWorld.MachineLearning.csproj", "{04422EDD-D040-4113-8902-A9EC98DC699E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalPlayers", "ExternalPlayers", "{0A541BA5-D031-47F2-9D59-0271F11FE719}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{162B79EE-B117-4019-8835-B5C878D5C52A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{113C8CC6-2D08-4E5B-91F8-F36371C5D60A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankWorld.MachineLearningPlayers", "ExternalPlayers\MachineLearningPlayers\TankWorld.MachineLearningPlayers.csproj", "{8929CC81-E549-4CCE-A5B6-E63F5C6A2295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankWorld.MachineLearning.Trainers", "ExternalPlayers\TankWorld.MachineLearning.Trainers\TankWorld.MachineLearning.Trainers.csproj", "{1136BAA8-D5A4-4186-AF36-7D595713BC1B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TankWorld.Common", "Common\TankWorld.Common\TankWorld.Common.vbproj", "{F5837FBA-CA61-424E-95F6-1152C54168E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankWorld.Common2", "Common\TankWorld.Common2\TankWorld.Common2.csproj", "{5984F1AE-FAE4-4F61-9CD8-1FA91DCA2DFA}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TankWorld.UnionFind", "Common\TankWorld.UnionFind\TankWorld.UnionFind.fsproj", "{E3C1CB14-0272-4F80-B30A-2F57C365CB59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankWorld.GameManager", "Core\TankWorld.GameManager\TankWorld.GameManager.csproj", "{77D23BAA-360C-41CA-A033-D63252FC1A42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankWorld.MachineLearning.Test", "Common\TankWorld.MachineLearning.Test\TankWorld.MachineLearning.Test.csproj", "{49EAADE7-8AFE-4C64-9383-B4818CE80598}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF6555E1-BC76-4F84-8C23-194485227785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF6555E1-BC76-4F84-8C23-194485227785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF6555E1-BC76-4F84-8C23-194485227785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF6555E1-BC76-4F84-8C23-194485227785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0372302E-FFEE-47E0-91AE-1E4015AEF60B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0372302E-FFEE-47E0-91AE-1E4015AEF60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0372302E-FFEE-47E0-91AE-1E4015AEF60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0372302E-FFEE-47E0-91AE-1E4015AEF60B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47CE533E-0058-4FA4-B7B1-C7E018D343D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47CE533E-0058-4FA4-B7B1-C7E018D343D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47CE533E-0058-4FA4-B7B1-C7E018D343D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47CE533E-0058-4FA4-B7B1-C7E018D343D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4E5293-5CFD-455B-8464-854732BAC5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4E5293-5CFD-455B-8464-854732BAC5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4E5293-5CFD-455B-8464-854732BAC5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4E5293-5CFD-455B-8464-854732BAC5AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04422EDD-D040-4113-8902-A9EC98DC699E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04422EDD-D040-4113-8902-A9EC98DC699E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04422EDD-D040-4113-8902-A9EC98DC699E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04422EDD-D040-4113-8902-A9EC98DC699E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8929CC81-E549-4CCE-A5B6-E63F5C6A2295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8929CC81-E549-4CCE-A5B6-E63F5C6A2295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8929CC81-E549-4CCE-A5B6-E63F5C6A2295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8929CC81-E549-4CCE-A5B6-E63F5C6A2295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1136BAA8-D5A4-4186-AF36-7D595713BC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1136BAA8-D5A4-4186-AF36-7D595713BC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1136BAA8-D5A4-4186-AF36-7D595713BC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1136BAA8-D5A4-4186-AF36-7D595713BC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5837FBA-CA61-424E-95F6-1152C54168E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5837FBA-CA61-424E-95F6-1152C54168E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5837FBA-CA61-424E-95F6-1152C54168E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5837FBA-CA61-424E-95F6-1152C54168E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5984F1AE-FAE4-4F61-9CD8-1FA91DCA2DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5984F1AE-FAE4-4F61-9CD8-1FA91DCA2DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5984F1AE-FAE4-4F61-9CD8-1FA91DCA2DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5984F1AE-FAE4-4F61-9CD8-1FA91DCA2DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3C1CB14-0272-4F80-B30A-2F57C365CB59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3C1CB14-0272-4F80-B30A-2F57C365CB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3C1CB14-0272-4F80-B30A-2F57C365CB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3C1CB14-0272-4F80-B30A-2F57C365CB59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77D23BAA-360C-41CA-A033-D63252FC1A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D23BAA-360C-41CA-A033-D63252FC1A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D23BAA-360C-41CA-A033-D63252FC1A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D23BAA-360C-41CA-A033-D63252FC1A42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49EAADE7-8AFE-4C64-9383-B4818CE80598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49EAADE7-8AFE-4C64-9383-B4818CE80598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49EAADE7-8AFE-4C64-9383-B4818CE80598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49EAADE7-8AFE-4C64-9383-B4818CE80598}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E501BD34-E7F8-4A7E-9756-C3ABF1B3E568} = {5F5BB30A-0DEB-47DE-98B2-AE597C4CE221}
+		{47CE533E-0058-4FA4-B7B1-C7E018D343D3} = {113C8CC6-2D08-4E5B-91F8-F36371C5D60A}
+		{3BCEDA92-5D41-41C8-9140-E9A729684ECA} = {5F5BB30A-0DEB-47DE-98B2-AE597C4CE221}
+		{BE4E5293-5CFD-455B-8464-854732BAC5AD} = {0A541BA5-D031-47F2-9D59-0271F11FE719}
+		{04422EDD-D040-4113-8902-A9EC98DC699E} = {162B79EE-B117-4019-8835-B5C878D5C52A}
+		{8929CC81-E549-4CCE-A5B6-E63F5C6A2295} = {0A541BA5-D031-47F2-9D59-0271F11FE719}
+		{1136BAA8-D5A4-4186-AF36-7D595713BC1B} = {0A541BA5-D031-47F2-9D59-0271F11FE719}
+		{F5837FBA-CA61-424E-95F6-1152C54168E5} = {162B79EE-B117-4019-8835-B5C878D5C52A}
+		{5984F1AE-FAE4-4F61-9CD8-1FA91DCA2DFA} = {162B79EE-B117-4019-8835-B5C878D5C52A}
+		{E3C1CB14-0272-4F80-B30A-2F57C365CB59} = {162B79EE-B117-4019-8835-B5C878D5C52A}
+		{77D23BAA-360C-41CA-A033-D63252FC1A42} = {113C8CC6-2D08-4E5B-91F8-F36371C5D60A}
+		{49EAADE7-8AFE-4C64-9383-B4818CE80598} = {162B79EE-B117-4019-8835-B5C878D5C52A}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 21
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tvshowwords.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TankWorld.Common\\TankWorld.Common.vbproj
+		SccProjectTopLevelParentUniqueName1 = TankWorld.sln
+		SccProjectName1 = TankWorld.Common
+		SccLocalPath1 = TankWorld.Common
+		SccProjectUniqueName2 = TankWorld.Test\\TankWorld.Test.csproj
+		SccProjectName2 = TankWorld.Test
+		SccLocalPath2 = TankWorld.Test
+		SccProjectUniqueName3 = TankWorld.Common2\\TankWorld.Common2.csproj
+		SccProjectTopLevelParentUniqueName3 = TankWorld.sln
+		SccProjectName3 = TankWorld.Common2
+		SccLocalPath3 = TankWorld.Common2
+		SccProjectUniqueName4 = TankWorld.GameManager\\TankWorld.GameManager.csproj
+		SccProjectTopLevelParentUniqueName4 = TankWorld.sln
+		SccProjectName4 = TankWorld.GameManager
+		SccLocalPath4 = TankWorld.GameManager
+		SccProjectUniqueName5 = TankWorld.UnionFind\\TankWorld.UnionFind.fsproj
+		SccProjectTopLevelParentUniqueName5 = TankWorld.sln
+		SccProjectName5 = TankWorld.UnionFind
+		SccLocalPath5 = TankWorld.UnionFind
+		SccProjectUniqueName6 = TankWorld.PlayerInterface\\TankWorld.PlayerInterface.csproj
+		SccProjectTopLevelParentUniqueName6 = TankWorld.sln
+		SccProjectName6 = TankWorld.PlayerInterface
+		SccLocalPath6 = TankWorld.PlayerInterface
+		SccProjectUniqueName7 = TankWorld.Base\\TankWorld.Core.csproj
+		SccProjectTopLevelParentUniqueName7 = TankWorld.sln
+		SccProjectName7 = TankWorld.Base
+		SccLocalPath7 = TankWorld.Base
+		SccProjectUniqueName8 = TankWorld.ProgrammedPlayers\\TankWorld.ProgrammedPlayers.csproj
+		SccProjectTopLevelParentUniqueName8 = TankWorld.sln
+		SccProjectName8 = TankWorld.ProgrammedPlayers
+		SccLocalPath8 = TankWorld.ProgrammedPlayers
+		SccProjectUniqueName9 = ExternalPlayers\\MachineLearningPlayers\\TankWorld.MachineLearningPlayers.csproj
+		SccProjectTopLevelParentUniqueName9 = TankWorld.sln
+		SccProjectName9 = ExternalPlayers/MachineLearningPlayers
+		SccLocalPath9 = ExternalPlayers\\MachineLearningPlayers
+		SccProjectUniqueName10 = ExternalPlayers\\TankWorld.MachineLearning.Trainers\\TankWorld.MachineLearning.Trainers.csproj
+		SccProjectTopLevelParentUniqueName10 = TankWorld.sln
+		SccProjectName10 = ExternalPlayers/TankWorld.MachineLearning.Trainers
+		SccLocalPath10 = ExternalPlayers\\TankWorld.MachineLearning.Trainers
+		SccProjectUniqueName11 = TankWorld.SimpleLogistic\\TankWorld.MachineLearning.csproj
+		SccProjectTopLevelParentUniqueName11 = TankWorld.sln
+		SccProjectName11 = TankWorld.SimpleLogistic
+		SccLocalPath11 = TankWorld.SimpleLogistic
+		SccProjectUniqueName12 = Core\\TankWorld.Base\\TankWorld.Core.csproj
+		SccProjectTopLevelParentUniqueName12 = TankWorld.sln
+		SccProjectName12 = Core/TankWorld.Base
+		SccLocalPath12 = Core\\TankWorld.Base
+		SccProjectUniqueName13 = Common\\TankWorld.MachineLearning\\TankWorld.MachineLearning.csproj
+		SccProjectTopLevelParentUniqueName13 = TankWorld.sln
+		SccProjectName13 = Common/TankWorld.MachineLearning
+		SccLocalPath13 = Common\\TankWorld.MachineLearning
+		SccProjectUniqueName14 = ExternalPlayers\\TankWorld.ProgrammedPlayers\\TankWorld.ProgrammedPlayers.csproj
+		SccProjectTopLevelParentUniqueName14 = TankWorld.sln
+		SccProjectName14 = ExternalPlayers/TankWorld.ProgrammedPlayers
+		SccLocalPath14 = ExternalPlayers\\TankWorld.ProgrammedPlayers
+		SccProjectUniqueName15 = TankWorld.UI\\TankWorld.UI.csproj
+		SccProjectName15 = TankWorld.UI
+		SccLocalPath15 = TankWorld.UI
+		SccProjectUniqueName16 = Common\\TankWorld.Common\\TankWorld.Common.vbproj
+		SccProjectTopLevelParentUniqueName16 = TankWorld.sln
+		SccProjectName16 = Common/TankWorld.Common
+		SccLocalPath16 = Common\\TankWorld.Common
+		SccProjectUniqueName17 = Common\\TankWorld.Common2\\TankWorld.Common2.csproj
+		SccProjectTopLevelParentUniqueName17 = TankWorld.sln
+		SccProjectName17 = Common/TankWorld.Common2
+		SccLocalPath17 = Common\\TankWorld.Common2
+		SccProjectUniqueName18 = Common\\TankWorld.UnionFind\\TankWorld.UnionFind.fsproj
+		SccProjectTopLevelParentUniqueName18 = TankWorld.sln
+		SccProjectName18 = Common/TankWorld.UnionFind
+		SccLocalPath18 = Common\\TankWorld.UnionFind
+		SccProjectUniqueName19 = Core\\TankWorld.GameManager\\TankWorld.GameManager.csproj
+		SccProjectTopLevelParentUniqueName19 = TankWorld.sln
+		SccProjectName19 = Core/TankWorld.GameManager
+		SccLocalPath19 = Core\\TankWorld.GameManager
+		SccProjectUniqueName20 = Common\\TankWorld.MachineLearning.Test\\TankWorld.MachineLearning.Test.csproj
+		SccProjectTopLevelParentUniqueName20 = TankWorld.sln
+		SccProjectName20 = Common/TankWorld.MachineLearning.Test
+		SccLocalPath20 = Common\\TankWorld.MachineLearning.Test
+	EndGlobalSection
+EndGlobal

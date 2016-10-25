@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{04422EDD-D040-4113-8902-A9EC98DC699E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TankWorld.MachineLearning</RootNamespace>
+    <AssemblyName>TankWorld.MachineLearning</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\Fmincg.cs" />
+    <Compile Include="Base\Matlab.cs" />
+    <Compile Include="Base\Matrix.cs" />
+    <Compile Include="Base\MatrixHelper.cs" />
+    <Compile Include="Base\Vector.cs" />
+    <Compile Include="Base\VectorHelper.cs" />
+    <Compile Include="Classification\BaseClassificationTrainer.cs" />
+    <Compile Include="Classification\BaseMultiClassifier.cs" />
+    <Compile Include="Classification\IBinaryClassificationTrainer.cs" />
+    <Compile Include="Classification\IClassifier.cs" />
+    <Compile Include="Ensemble\BaggingTrainer.cs" />
+    <Compile Include="Ensemble\MajorityVotingClassifier.cs" />
+    <Compile Include="Ensemble\MultiLogisticClassifier.cs" />
+    <Compile Include="LogisticRegression\LogisticClassifier.cs" />
+    <Compile Include="DecisionTree\BinarySpliter.cs" />
+    <Compile Include="DecisionTree\Entropy.cs" />
+    <Compile Include="Ensemble\AdaBoostClassifier.cs" />
+    <Compile Include="Ensemble\AdaBoostMultiClassification.cs" />
+    <Compile Include="DecisionTree\Stump.cs" />
+    <Compile Include="Ensemble\AdaBoostTrainer.cs" />
+    <Compile Include="Base\FeatureExtension.cs" />
+    <Compile Include="Classification\MultiClassificatioinSample.cs" />
+    <Compile Include="LogisticRegression\MultiLogisticClassifier.cs" />
+    <Compile Include="Classification\IMultiClassifier.cs" />
+    <Compile Include="Classification\BaseClassifier.cs" />
+    <Compile Include="Base\MLMath.cs" />
+    <Compile Include="NeuralNetwork\NeuralNetworkTrainer.cs" />
+    <Compile Include="NeuralNetwork\NeuralNetworkClassifier.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classification\BinaryClassificationSample.cs" />
+    <Compile Include="LogisticRegression\MultiClassificationTrainResult.cs" />
+    <Compile Include="LogisticRegression\BinaryClassificationTrainResult.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

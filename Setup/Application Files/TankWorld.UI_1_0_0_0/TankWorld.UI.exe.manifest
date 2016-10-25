@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TankWorld.UI.exe" version="1.0.0.0" publicKeyToken="b1806797401e7ed0" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TankWorld.UI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TankWorld.UI.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FSharp.Core.dll" size="1506120">
+      <assemblyIdentity name="FSharp.Core" version="4.4.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5i+H1hJSQes0aQIoe0fiSsZPzn2SLZBZubWZKvXwoZ0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OpenTK.dll" size="4004352">
+      <assemblyIdentity name="OpenTK" version="1.1.0.0" publicKeyToken="BAD199FE84EB3DF4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/Xy1/AFqFcYZr+XREbfTskOrohDDK+J56AtyqjKQqKo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OpenTK.GLControl.dll" size="49152">
+      <assemblyIdentity name="OpenTK.GLControl" version="1.1.0.0" publicKeyToken="BAD199FE84EB3DF4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CAAqlkqVR6gaZ5SY9bEBAfpJJW5hqULOKLK3On3Udp8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TankWorld.Common.dll" size="20992">
+      <assemblyIdentity name="TankWorld.Common" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Kz7IQp/Gf1RHgndvqirk6KAD3gCmSUSBaalEylSJZDE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TankWorld.Core.dll" size="20480">
+      <assemblyIdentity name="TankWorld.Core" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nnKiPQGexBf3P6L8LVE0T60tVD34RvScjH1lixzw6OE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TankWorld.GameManager.dll" size="16384">
+      <assemblyIdentity name="TankWorld.GameManager" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>eptfSJPAnLsGJl0i5QIMaUS+zmKtsN0PdqivxyCBkvg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TankWorld.MachineLearning.dll" size="33280">
+      <assemblyIdentity name="TankWorld.MachineLearning" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ShfKJMOfrd5izwpKXATVMVUu1nGOJBkOsisUazBQ4lA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TankWorld.ProgrammedPlayers.dll" size="6656">
+      <assemblyIdentity name="TankWorld.ProgrammedPlayers" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>H7zQl9cxlN4N+Vul4gJSJ4/Z+zAnW5zmAZYyYJy1i8E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TankWorld.UI.exe" size="33752">
+      <assemblyIdentity name="TankWorld.UI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>YDCSki43EXatgC1cg6l6PRiPkqeUIfK5s3ssC5W2qcY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TankWorld.UnionFind.dll" size="13824">
+      <assemblyIdentity name="TankWorld.UnionFind" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>h9CD8V/VapR8Cn2Cwh2t2afDe8n2RV5ADlkkdG8zLyM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Images\Blue_Flag.png" size="20579">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aCn1cG9kwqlWDPu2a0ammqXSpPHOtFl7G7kgKjJbC+Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\brick.bmp" size="7654">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dZmAdI15nCzghdDdWU/FJi5pOFEqG8LCldDqqSvKIE4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Brick.jpg" size="5820">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>J7dMGWPaIhucHSmxOI1aGqR/PxZYf8Puahoc6I6VvKw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Flag_Blue.png" size="2458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>I38+xyyOyPhKz2sKYCzeN3EIxpqpTpuqbVhNs2oZdJU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Flag_Red.png" size="2511">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ClTF5gCzXnuM+ZKWMSSb+xH4qmBF1wvApyu3jqgQYOA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\flag5_chartreuse.png" size="22626">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VQjJUL8y6ha+HalWGPxF+7fXt79Qp0N8+mSahi+Ossk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Green_Flag.png" size="20686">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ko+aXBa7M1CBCYuHFy8EfkHxrSmVFHzMGNruwFIhXjA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\MH_Tank.gif" size="1848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>r9/dy+w2Le9T/oSsQSurrHktQjWkyrvAxqfst9HRsVM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Red_Tank.png" size="1901">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>V97fd++rp7Vqd/d1MjBvLwvbT2FdQkdwII11SwnEVUk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Tank - Copy.png" size="875">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QT+PFkDEdGSAvolx8TXLPwG9NcCmrMa4UQyCUQCHtxo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Tank.png" size="529">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2FLEjnpc1Q2NlNdB0O1tiPSCCG8cDeAY59sBsbfmoi4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Plugins\NN_Theta1.txt" size="12085">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iuIF1T3nxTNoj7LhsFb7nlARWyDMH35avrArEjH4Hyo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Plugins\NN_Theta2.txt" size="1968">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sho9jMouxeZzwMywAny6+v+u0BM1iIJ8HWR/IHv8Tsw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Plugins\TankWorld.MachineLearningPlayers.dll" size="9216">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5E8IWJEysF3WGk1wLl7Ic4cHGWapLCv3Q1rpfvUwiq8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Plugins\TankWorld.MachineLearningPlayers.pdb" size="19968">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mJz5v7T/jUfHWP5AopkScIixBmqk6Drr9V7VTFnekVc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Plugins\TankWorld.ProgrammedPlayers.dll" size="6656">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JbXWSLGcgqEYoP8i/hLDpUHKuEZNY6wc66V/QO42234=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Plugins\TankWorld.ProgrammedPlayers.pdb" size="13824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ph5H2EsFw53UkL6Xa6BfkoN5u5/H7iSiM51cKEUGsj8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Plugins\theta.txt" size="4325">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8hlLFRuuMgr0+E69HKmC0WIXn/fyoAKDfQ6mLpnyh0A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TankWorld.UI.exe.config" size="161">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+K0Xw31ERSGzkFzL116my249J2OxbrVrLhqkJ0Fz5hQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LENOVO-PC-ERIC\Eric" issuerKeyHash="434128b361777d56a2dd7927d8168b5f1bee6edb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+tm3Ob/X2dWrIV6PNGXnU5OUbfwCqGZlIOTolXR1+MY=</DigestValue></Reference></SignedInfo><SignatureValue>ZLgeC9bPStH9t8GQI4QJoOwOCVEJoY8bbJPk/3nkevRsf5U5+bXppcfV+F+IZpR8n2xJ0vKPe1R/siZ5NglFGsiEY0TZIRJnnQpLDV2gi3Y6Ca64Nh/fGkMWNQNbVYrAOA8SFNKXA1gdr5yWXxHQ42ax4SD1UN6z5eL4Ohn3ENw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wpgEYa/xLQutitkpTXFCLcyn0enAZEe9cIxLfNEwVqeMn3D1ceSj2ZmmBm38GwSui0R9cz1vozrmAowWQC3XeWfT9FFqAHmN1aG0qdLE0OdvzbNs0/mR85OPmGqD0FlsqkCTyGTTiqYXzBFDxtET5ZP907vBA7iKi4YpQr783/c=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c6f8757495e8e4206566a802fc6d949353e765348f5e21abd5d9d7bf39b7d9fa" Description="" Url=""><as:assemblyIdentity name="TankWorld.UI.exe" version="1.0.0.0" publicKeyToken="b1806797401e7ed0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LENOVO-PC-ERIC\Eric</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>q31GWbR4ermpQ4NuGuZwrJk11jUVxazicxRWEoAIy14=</DigestValue></Reference></SignedInfo><SignatureValue>VcrLEcle8Bvp0YqN2vwrLBGeUmdaJnyP9mj4dWQwkDgAa4N2qDqHS5o4mEdQaoDvYYnwFWq4bFEhUK4hEkGag31wV/4ew4vKUI8m0KXlaxX0BxK1p6IGDX9ZphGURYIMV1PDK8AMZ1Hy4I/pXgADfDIOuGckmv/rcfUG26EBqi4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wpgEYa/xLQutitkpTXFCLcyn0enAZEe9cIxLfNEwVqeMn3D1ceSj2ZmmBm38GwSui0R9cz1vozrmAowWQC3XeWfT9FFqAHmN1aG0qdLE0OdvzbNs0/mR85OPmGqD0FlsqkCTyGTTiqYXzBFDxtET5ZP907vBA7iKi4YpQr783/c=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQbYL0KTA7f4dNJgHMbotx4TANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYATABFAE4ATwBWAE8ALQBQAEMALQBFAFIASQBDAFwARQByAGkAYzAeFw0xNTEyMDkyMzIzNDFaFw0xNjEyMDkwNTIzNDFaMDExLzAtBgNVBAMeJgBMAEUATgBPAFYATwAtAFAAQwAtAEUAUgBJAEMAXABFAHIAaQBjMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCmARhr/EtC62K2SlNcUItzKfR6cBkR71wjEt80TBWp4yfcPVx5KPZmaYGbfwbBK6LRH1zPW+jOuYCjBZALdd5Z9P0UWoAeY3VobSp0sTQ52/Ns2zT+ZHzk4+YaoPQWWyqQJPIZNOKphfMEUPG0RPlk/3Tu8EDuIqLhilCvvzf9wIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIFhWTtrEBLlrIF4wDcTqPRdlD/bUM+ggspMngvCGdlIx4AzUb4uU7r3VYsvWyaiLgjt+qERRnVID5Z+eGljwVnJojEerLXGrNPNaW7WLqkNWQaASrBRvWap1jwnnacg7fCQjR+tj7i04MelzPtI03xqY55tT8X/lTJzU8b/Nb3R</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

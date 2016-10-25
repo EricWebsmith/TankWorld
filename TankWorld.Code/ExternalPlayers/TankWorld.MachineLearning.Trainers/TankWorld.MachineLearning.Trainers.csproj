@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1136BAA8-D5A4-4186-AF36-7D595713BC1B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TankWorld.MachineLearning.Trainers</RootNamespace>
+    <AssemblyName>TankWorld.MachineLearning.Trainers</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SampleCollector.cs" />
+    <Compile Include="Trainer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\TankWorld.Common\TankWorld.Common.vbproj">
+      <Project>{f5837fba-ca61-424e-95f6-1152c54168e5}</Project>
+      <Name>TankWorld.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\TankWorld.MachineLearning\TankWorld.MachineLearning.csproj">
+      <Project>{04422edd-d040-4113-8902-a9ec98dc699e}</Project>
+      <Name>TankWorld.MachineLearning</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\TankWorld.Base\TankWorld.Core.csproj">
+      <Project>{47ce533e-0058-4fa4-b7b1-c7e018d343d3}</Project>
+      <Name>TankWorld.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\TankWorld.GameManager\TankWorld.GameManager.csproj">
+      <Project>{77d23baa-360c-41ca-a033-d63252fc1a42}</Project>
+      <Name>TankWorld.GameManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TankWorld.ProgrammedPlayers\TankWorld.ProgrammedPlayers.csproj">
+      <Project>{be4e5293-5cfd-455b-8464-854732bac5ad}</Project>
+      <Name>TankWorld.ProgrammedPlayers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MachineLearningPlayers\TankWorld.MachineLearningPlayers.csproj">
+      <Project>{8929cc81-e549-4cce-a5b6-e63f5c6a2295}</Project>
+      <Name>TankWorld.MachineLearningPlayers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
